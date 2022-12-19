@@ -18,11 +18,11 @@
     }
     </style>
     <script>
-    for (video of document.getElementsByTagName("video")) {
+    var video = document.getElementsByTagName("video") 
          video.setAttribute("playsinline", "");
          video.setAttribute("muted", "");
          video.play();
-    }
+    
 </script>
 </head>
 <body>
